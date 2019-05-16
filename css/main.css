@@ -21,10 +21,10 @@ a {
 }
 a:hover {
     text-decoration: none;
-    border-bottom: 1px;
+    border: 1px;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family: 'Roboto', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
