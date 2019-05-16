@@ -21,8 +21,10 @@ a {
 }
 a:hover {
     text-decoration: none;
-    border: 1px;
+    color: #fcfcfc;
+    background-color: #1f1f1f;    
 }
+
 h1 {
     font-size: 2em;
     font-family: 'Roboto', 'Helvetica', 'Arial', 'Sans-Serif';
