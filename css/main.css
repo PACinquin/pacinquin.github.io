@@ -69,6 +69,10 @@ div.desc {
   text-align: center;
 }
 
+.desc p {
+    text-align: left;
+}
+
 div.meta_gallery {
     display: flex;
 }
