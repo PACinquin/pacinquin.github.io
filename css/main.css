@@ -48,8 +48,13 @@ ul.posts li {
     list-style: none;
 }
 
+p.box {
+    padding-left: 10px;
+}
+
 img {
   float: left;
   width:25%;
   height:25%;
+  overflow: auto;
 }
