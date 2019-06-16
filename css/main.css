@@ -81,3 +81,8 @@ div.desc {
 div.meta_gallery {
     display: flex;
 }
+
+.screenshot {
+    width:30%;
+    height:auto;
+}
