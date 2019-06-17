@@ -87,9 +87,10 @@ div.meta_gallery {
     height:auto;
 }
 
+
 .projects-list {
   margin: 0;
-  padding: 0;
+  padding: 1;
 
   list-style: none;
   display: flex;
@@ -99,26 +100,26 @@ div.meta_gallery {
 }
 
 .projects-list-item {
-  margin: 8px;
+  margin: 7px;
 }
 
 .project-link {
   box-sizing: border-box;
 
-  width: 315px;
-  height: 250px;
+  width: 260px;
+  height: 300px;
   
-  padding: 200px 0 0;
+  padding: 250px 0 0;
   display: block;
   
   border: 3px solid #111;
   border-radius: 4px;
   overflow: hidden;
   
-  color: inherit;
+  color: black;
   text-decoration: none;
 
-  background-color: #fff;
+ 
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -126,12 +127,14 @@ div.meta_gallery {
 
 .project-link:hover, .project-link:focus {
   border-color: #FFDC00;
+  opacity:0.5;
   outline: 0;
+  
 }
 
 .project-link__title {
   box-sizing: border-box;
-
+  visibility: hidden;
   height: 44px;
   display: block;
   font-size: 20px;
@@ -142,4 +145,8 @@ div.meta_gallery {
   
   background-color: white;
   text-align: center;
+}
+
+.project-link__title:hover {
+  visibility: visible;
 }
