@@ -90,7 +90,7 @@ div.meta_gallery {
 
 .projects-list {
   margin: 0;
-  padding: 1;
+  padding: 0;
 
   list-style: none;
   display: flex;
@@ -100,7 +100,7 @@ div.meta_gallery {
 }
 
 .projects-list-item {
-  margin: 7px;
+  margin: 8px;
 }
 
 .project-link {
@@ -116,10 +116,10 @@ div.meta_gallery {
   border-radius: 4px;
   overflow: hidden;
   
-  color: black;
+  color: inherit;
   text-decoration: none;
 
- 
+  background-color: #fff;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -127,14 +127,12 @@ div.meta_gallery {
 
 .project-link:hover, .project-link:focus {
   border-color: #FFDC00;
-  opacity:0.5;
   outline: 0;
-  
 }
 
 .project-link__title {
   box-sizing: border-box;
-  visibility: hidden;
+
   height: 44px;
   display: block;
   font-size: 20px;
@@ -145,8 +143,4 @@ div.meta_gallery {
   
   background-color: white;
   text-align: center;
-}
-
-.project-link__title:hover {
-  visibility: visible;
 }
