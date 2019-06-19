@@ -19,8 +19,8 @@ a {
     color: #1f1f1f;
     border-bottom: 1px dotted;
 }
-a:hover {
-    text-decoration: none;
+.menu a:hover {
+    text-decoration: ;
     color: #fcfcfc;
     background-color: #1f1f1f;    
 }
