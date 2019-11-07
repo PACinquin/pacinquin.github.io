@@ -87,6 +87,11 @@ div.meta_gallery {
     height:auto;
 }
 
+.avatar {
+  float:left;
+  width:100px;
+  height:100px;
+}
 
 .projects-list {
   margin: 0;
